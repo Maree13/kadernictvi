@@ -6,7 +6,7 @@ const Footer = () => {
       <section className="footer-links">
         <a
           className="social-media-icon"
-          href="https://www.facebook.com/tvojProfil"
+          href="https://www.facebook.com/MVisagemichaelakantorova"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -14,7 +14,7 @@ const Footer = () => {
         </a>
         <a
           className="social-media-icon"
-          href="https://www.instagram.com/tvojProfil"
+          href="https://www.instagram.com/mvisage_michaelakantorova/"
           target="_blank"
           rel="noopener noreferrer"
         >

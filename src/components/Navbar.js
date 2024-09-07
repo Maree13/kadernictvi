@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Importing icons
+import logo from '../img/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage menu open/close
 
   return (
     <header className="navbar-header">
-      <p className="navbar-logo">M Visage</p>
+      {/* <p className="navbar-logo">M Visage</p> */}
+      <img src={logo} alt="M Visage Logo" className="navbar-logo" />
 
       {/* Button that toggles between burger and cross icon */}
       <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>

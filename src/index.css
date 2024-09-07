@@ -27,6 +27,8 @@ body {
   /* --border: #d14081; */
   --border: #FFFFFF;
   --hover: #f89201;
+  --border-transparent: rgba(255, 255, 255, 0.3);
+  --text-light: #FFFFFF;
 
 }
 
@@ -48,23 +50,31 @@ body {
 .navbar-header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 20px;
+  /* padding: 15px 40px; */
+  /* padding: 30px 70px; */
+  padding: 20px 70px;
   background-color: var(--primary-color-background-light);
+  flex-direction: row;
   align-items: center;
   position: relative;
+  width: 100%;
 }
 
 .navbar-navigation {
   display: flex;
-  width: 70%;
-  justify-content: space-evenly;
+  /* width: 70%; */
+  flex-grow: 2;
+  justify-content: flex-end;
+  gap: 50px;
 }
 
 .navbar-link {
   text-decoration: none;
   color: var(--text-color);
-  text-transform: uppercase;
-  font-size: 30px;
+  text-transform: lowercase;
+  /* font-size: 30px; */
+  font-size: 1.2rem;
+  letter-spacing: 7px;
 }
 
 .navbar-link:hover {
@@ -73,9 +83,11 @@ body {
 
 .navbar-logo {
   font-weight: 900;
-  font-size: 35px;
+  /* font-size: 35px; */
+  font-size: 1.7rem;
   text-transform: uppercase;
   z-index: 2;
+  /* margin-left: 40px; */
 }
 
 .hamburger {
@@ -87,7 +99,8 @@ body {
   .hamburger {
     display: flex;
     cursor: pointer;
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 1.5rem;
     /* Adjust the size as needed */
     background: none;
     border: none;
@@ -100,11 +113,12 @@ body {
     /* Initially hide the menu */
     position: absolute;
     /* top: 120px; */
-    top: 80px;
+    top: 100px;
     /* Adjust the top value based on the height of your header */
     left: 0;
     background-color: var(--primary-color-background-light);
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    gap: 10px;
     z-index: 1;
   }
 
@@ -137,7 +151,13 @@ body {
   }
 
   .navbar-header {
-    height: 70px;
+    /* height: 70px; */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .navbar-logo {
+    margin: 0;
   }
 }
 
@@ -145,44 +165,44 @@ body {
 /* HERO SECTION */
 
 .hero-section {
-  background-image: url('./img/hero000.jpg');
+  background-image: url('./img/heroo1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
   /* color: white; */
 }
 
 .button-hero {
   border: 1px solid var(--primary-color-background-transparent);
-  border-radius: 7px;
-  /* background-color: var(--primary-color-background-transparent); */
+  border-radius: 5px;
   background-color: transparent;
-  font-size: 4rem;
-  letter-spacing: 5px;
+  font-size: 0.9rem;
+  letter-spacing: 6px;
   color: var(--text-color);
   margin: 50px;
-  padding: 40px 60px;
+  padding: 30px 70px;
   text-transform: lowercase;
   cursor: pointer;
 }
 
 .button-hero:hover {
   /* color: var(--hover); */
-  border: 0px solid var(--button-border-black);
+  border: 0px solid var(--border);
   background-color: var(--primary-color-background-transparent);
+  /* background-color: transparent; */
 }
 
 .buttons-hero {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /* height: 100vh; */
-  justify-content: space-evenly;
-  /* align-items: space-evenly; */
+  justify-content: center;
+  padding-top: 80px;
 }
 
 /* Responsive - MOBILE */
@@ -192,9 +212,15 @@ body {
     padding-top: 15%;
   }
 
-  .button-hero {
-    font-size: 2.1rem;
-    letter-spacing: 6px;
+  /* .button-hero {
+
+  } */
+
+  .hero-section {
+    background-image: url('./img/hero-mobile.jpg');
+    background-position: center;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 
@@ -263,6 +289,45 @@ body {
 .name-aboutus {
   font-family: "Playwrite CZ", cursive;
   padding: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--primary-color-background-dark);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 70px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+
+.social-media-icon {
+  color: var(--primary-color-background-light);
+  font-size: 1.5rem;
+  margin-left: 70px;
+}
+
+.copyright {
+  color: var(--text-light);
+  /* margin: 30px 20px 20px 20px; */
+  font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 /* CZECH HANDWRITING FONT: font-family: "Playwrite CZ", cursive; */

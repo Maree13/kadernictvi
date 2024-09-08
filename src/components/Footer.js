@@ -4,35 +4,37 @@ const Footer = () => {
   return (
     <footer className="footer">
       <section className="footer-links">
-        <a
-          className="social-media-icon"
-          href="https://www.facebook.com/MVisagemichaelakantorova"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaFacebook size={30} />
-        </a>
-        <a
-          className="social-media-icon"
-          href="https://www.instagram.com/mvisage_michaelakantorova/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaInstagram size={30} />
-        </a>
+        <div>
+          <a
+            className="social-media-icon"
+            href="https://www.facebook.com/MVisagemichaelakantorova"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook size={30} />
+          </a>
+        </div>
+        <div>
+          <a
+            className="social-media-icon"
+            href="https://www.instagram.com/mvisage_michaelakantorova/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram size={30} />
+          </a>
+        </div>
       </section>
       <p className="web-design">
         Designed with <i className="fa-solid fa-heart"></i> by{' '}
-        <a
+        {/* <a
           className="web-design-mari"
-          // href="mailto:someemail@someemail.com"
           href="https://github.com/Maree13/"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          mari
-        </a>
-        !{' '}
+        > */}
+        mari
+        {/* </a> */}!{' '}
         {/* <a
           href="https://github.com/Maree13/"
           target="_blank"

@@ -1,5 +1,5 @@
 const Kozmetika = () => {
-  return <div>Kozmetika</div>;
+  return <section className="kozmetika">Kozmetika</section>;
 };
 
 export default Kozmetika;

@@ -1,8 +1,8 @@
 const Kadernictvi = () => {
   return (
-    <div>
-      <h2>Kadernictvi</h2>
-    </div>
+    <section className="kadernictvi">
+      <h3>Kaderníctvi</h3>
+    </section>
   );
 };
 

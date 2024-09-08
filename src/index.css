@@ -177,7 +177,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -244,6 +244,7 @@ body {
   letter-spacing: 3px;
   line-height: 40px;
   /* border-top: 0.5px solid var(--hover); */
+  min-height: 100vh;
 }
 
 .paragraphs-aboutus {
@@ -251,7 +252,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 170px 30px; */
   text-align: center;
   font-size: 1.5rem;
   gap: 40px;
@@ -311,17 +311,21 @@ body {
 
 .contact {
   background-color: var(--secondary-background);
-  height: 100vh;
+  width: 100%;
+  /* height: calc(100vh-150px); */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 400px;
+  padding-top: 70px;
+  padding-bottom: 40px;
   letter-spacing: 1.2px;
 }
 
 .address {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 
@@ -347,10 +351,11 @@ body {
   padding: 40px;
 }
 
-/* CONTACT - WEB DESIGN  */
+/* FOOTER - WEB DESIGN  */
 
 .web-design {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  color: var(--text-light);
 }
 
 .fa-heart {
@@ -359,7 +364,7 @@ body {
 
 .web-design-mari {
   text-decoration: none;
-  color: var(--text-color)
+  color: var(--text-light)
 }
 
 .web-design-mari:hover {

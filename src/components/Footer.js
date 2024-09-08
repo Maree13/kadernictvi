@@ -21,6 +21,26 @@ const Footer = () => {
           <FaInstagram size={30} />
         </a>
       </section>
+      <p className="web-design">
+        Designed with <i className="fa-solid fa-heart"></i> by{' '}
+        <a
+          className="web-design-mari"
+          // href="mailto:someemail@someemail.com"
+          href="https://github.com/Maree13/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          mari
+        </a>
+        !{' '}
+        {/* <a
+          href="https://github.com/Maree13/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github"></i>{' '}
+        </a> */}
+      </p>
       <p class="copyright">© 2024 mariana sarovic</p>
     </footer>
   );

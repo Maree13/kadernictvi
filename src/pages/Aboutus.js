@@ -1,6 +1,3 @@
-import misa from '../img/misa.jpg';
-import helena from '../img/helena.jpg';
-
 const Aboutus = () => {
   return (
     <div className="aboutus">
@@ -16,34 +13,8 @@ const Aboutus = () => {
           abychom vám mohli nabídnout to nejlepší.
         </p>
         <p>Těšíme se na vás!</p>
+        <p>Míša & Helena</p>
       </section>
-      {/* <section className="figures">
-        <div className="figure-aboutus">
-          <figure className="figure">
-            <div className="img-profile-wrapper">
-              <img
-                className="img-profile img-profile-michaela"
-                src={misa}
-                alt="Michaela"
-              />
-            </div>
-            <span className="name name-aboutus">Michaela Kantorová</span>
-          </figure>
-        </div>
-
-        <div className="figure-aboutus">
-          <figure className="figure">
-            <div className="img-profile-wrapper">
-              <img
-                className="img-profile img-profile-helena"
-                src={helena}
-                alt="Helena"
-              />
-            </div>
-            <span className="name name-aboutus">Helena Šubrtová</span>
-          </figure>
-        </div>
-      </section> */}
     </div>
   );
 };

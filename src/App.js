@@ -5,6 +5,7 @@ import Error from './pages/Error';
 import SharedLayout from './pages/SharedLayout';
 import Kadernictvi from './pages/Kadernictvi';
 import Aboutus from './pages/Aboutus';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App = () => {
   return (

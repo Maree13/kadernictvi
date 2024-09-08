@@ -12,11 +12,12 @@ const Aboutus = () => {
         </p>
         <p>
           Pracujeme s kosmetikou <b>REDKEN</b> a <b>PAYOT</b> a rádi vám
-          poradíme, co je pro vás nejlepší. Stále se učíme nové trendy, abychom
-          vám mohli nabídnout to nejlepší.
+          poradíme, co je pro vás nejvhodnější. Stále se učíme nové trendy,
+          abychom vám mohli nabídnout to nejlepší.
         </p>
+        <p>Těšíme se na vás!</p>
       </section>
-      <section className="figures">
+      {/* <section className="figures">
         <div className="figure-aboutus">
           <figure className="figure">
             <div className="img-profile-wrapper">
@@ -42,7 +43,7 @@ const Aboutus = () => {
             <span className="name name-aboutus">Helena Šubrtová</span>
           </figure>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

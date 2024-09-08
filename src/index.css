@@ -22,7 +22,8 @@ body {
   --button-border-black: #1b1b1b;
   --primary-color-background-transparent: rgba(255, 255, 255, 0.3);
   /* Priehľadná biela farba */
-  --button-hover: #d14081;
+  /* --heart-icon: #d14081; */
+  --heart-icon: #f89201;
   --background-dark: #313638;
   /* --border: #d14081; */
   --border: #FFFFFF;
@@ -40,9 +41,9 @@ body {
 }
 
 
-.roboto-mono-<uniquifier> {
+/* .roboto-mono-<uniquifier> {
   font-family: "Roboto Mono", monospace;
-}
+} */
 
 /* NAVBAR */
 
@@ -234,15 +235,15 @@ body {
 /* ABOUT US - O NAS */
 
 .aboutus {
-  /* background-color: var(--secondary-background); */
-  background-color: var(--primary-color-background-dark);
-  /* color: var(--text-color); */
-  color: var(--text-light);
+  background-color: var(--secondary-background);
+  /* background-color: var(--primary-color-background-dark); */
+  /* background-color: var(--primary-color-background-light); */
+  color: var(--text-color);
+  /* color: var(--text-light); */
   padding: 170px 40px;
-  /* height: 70vh; */
-  /* height: 100vh; */
-  /* padding-top: 10%; */
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  line-height: 40px;
+  /* border-top: 0.5px solid var(--hover); */
 }
 
 .paragraphs-aboutus {
@@ -296,7 +297,7 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: solid 1.5px var(--border);
+  border: solid 1px var(--border);
 }
 
 
@@ -304,6 +305,67 @@ body {
   font-family: "Playwrite CZ", cursive;
   padding: 30px;
 }
+
+/* CONTACT */
+/* CONTACT ADDRESS */
+
+.contact {
+  background-color: var(--secondary-background);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 400px;
+  letter-spacing: 1.2px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.email {
+  /* text-align: center; */
+}
+
+.email a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.email a:hover {
+  color: var(--hover)
+}
+
+/* CONTACT - GOOGLE.MAP */
+
+.google-map {
+  text-align: center;
+  padding: 40px;
+}
+
+/* CONTACT - WEB DESIGN  */
+
+.web-design {
+  font-size: 0.8rem;
+}
+
+.fa-heart {
+  color: var(--heart-icon);
+}
+
+.web-design-mari {
+  text-decoration: none;
+  color: var(--text-color)
+}
+
+.web-design-mari:hover {
+  color: var(--hover);
+}
+
 
 /* FOOTER */
 

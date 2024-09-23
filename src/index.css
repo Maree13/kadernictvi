@@ -374,13 +374,15 @@ body {
 .kadernictvi {
   min-height: 100vh;
   background-color: var(--secondary-background);
+  padding: 170px 40px;
 }
 
 /* KOZMETIKA */
 
 .kozmetika {
   min-height: 100vh;
-  background-color: var(--secondary-background)
+  background-color: var(--secondary-background);
+  padding: 170px 40px;
 }
 
 /* ERROR 404 PAGES */
@@ -391,9 +393,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   letter-spacing: 1.2px;
+  padding-top: 130px;
 }
 
 .error-section h2 {
@@ -414,11 +417,18 @@ body {
 
 .error-link:hover {
   background-color: var(--primary-color-background-light);
+  color: var(--hover);
 }
 
 @media (max-width: 768px) {
   .error-link {
     letter-spacing: 3px;
+  }
+
+  @media (max-width: 474px) {
+    .error-link {
+      font-size: 0.5rem;
+    }
   }
 }
 

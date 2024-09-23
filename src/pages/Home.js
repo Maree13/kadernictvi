@@ -17,6 +17,7 @@ const Home = () => {
         <button className="button button-hero" onClick={handleKadernictviClick}>
           Kadeřnictví
         </button>
+
         <button className="button button-hero" onClick={handleKozmetikaClick}>
           Kosmetika
         </button>

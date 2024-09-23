@@ -1,7 +1,7 @@
 const Kadernictvi = () => {
   return (
     <section className="kadernictvi">
-      <h3>Kaderníctvi</h3>
+      <h3>In progress :-) </h3>
     </section>
   );
 };

@@ -189,7 +189,7 @@ body {
 
 .button-hero {
   /* position: relative; */
-  border: 0.1px solid var(--primary-color-background-transparent);
+  border: 1.2px solid var(--primary-color-background-transparent);
   /* border-radius: 5px; */
   border-radius: 15px;
   background-color: transparent;
@@ -202,7 +202,7 @@ body {
   padding: 10px 40px;
   text-transform: lowercase;
   cursor: pointer;
-  box-shadow: 0 0 0 1px var(--primary-color-background-transparent);
+  /* box-shadow: 0 0 0 1px var(--primary-color-background-transparent); */
 }
 
 
@@ -382,6 +382,46 @@ body {
   min-height: 100vh;
   background-color: var(--secondary-background)
 }
+
+/* ERROR 404 PAGES */
+
+.error-section {
+  background-color: var(--secondary-background);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.2px;
+}
+
+.error-section h2 {
+  font-size: 75px;
+}
+
+.error-link {
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--primary-color-background-transparent);
+  text-align: center;
+  border: 1px solid var(--button-border-black);
+  border-radius: 5px;
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  padding: 5px 10px;
+}
+
+.error-link:hover {
+  background-color: var(--primary-color-background-light);
+}
+
+@media (max-width: 768px) {
+  .error-link {
+    letter-spacing: 3px;
+  }
+}
+
 
 /* FOOTER */
 

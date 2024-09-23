@@ -43,7 +43,7 @@ const Footer = () => {
           <i className="fab fa-github"></i>{' '}
         </a> */}
       </p>
-      <p class="copyright">© 2024 All rights reserved</p>
+      <p className="copyright">© 2024 All rights reserved</p>
     </footer>
   );
 };

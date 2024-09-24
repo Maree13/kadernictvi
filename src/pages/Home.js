@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <section className="hero-section">
-      <div class="buttons-hero">
+      <div className="buttons-hero">
         <button className="button button-hero" onClick={handleKadernictviClick}>
           Kadeřnictví
         </button>

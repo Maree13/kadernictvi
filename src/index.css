@@ -15,17 +15,12 @@ body {
   --primary-color-background-dark: #1b1b1b;
   --primary-color-background-light: #FFFFFF;
   --secondary-background: #E2DFDE;
-  /* --button-color: #FFB7C5; */
   --text-color: #1b1b1b;
-  /* --button-border-red: #ae2012; */
   --button-border: #c32f27;
   --button-border-black: #1b1b1b;
   --primary-color-background-transparent: rgba(255, 255, 255, 0.3);
-  /* Priehľadná biela farba */
-  /* --heart-icon: #d14081; */
   --heart-icon: #f89201;
   --background-dark: #313638;
-  /* --border: #d14081; */
   --border: #FFFFFF;
   --hover: #f89201;
   --border-transparent: rgba(255, 255, 255, 0.3);
@@ -37,13 +32,8 @@ body {
 
 body {
   font-family: "Open Sans", sans-serif;
-  /* font-family: "Moderustic", sans-serif; */
 }
 
-
-/* .roboto-mono-<uniquifier> {
-  font-family: "Roboto Mono", monospace;
-} */
 
 /* NAVBAR */
 
@@ -51,7 +41,6 @@ body {
 .navbar-header {
   display: flex;
   justify-content: space-between;
-  /* padding: 30px 70px; */
   padding: 20px 70px;
   background-color: var(--primary-color-background-light);
   flex-direction: row;
@@ -81,13 +70,6 @@ body {
   color: var(--hover);
 }
 
-/* .navbar-logo {
-  font-weight: 900;
-  font-size: 1.7rem;
-  text-transform: uppercase;
-  z-index: 2;
-} */
-
 .navbar-logo {
   width: 150px;
   height: auto;
@@ -103,32 +85,24 @@ body {
   .hamburger {
     display: flex;
     cursor: pointer;
-    /* font-size: 35px; */
     font-size: 1.5rem;
-    /* Adjust the size as needed */
     background: none;
     border: none;
     z-index: 2;
-    /* Ensure the button stays above the menu */
   }
 
   .navbar-navigation {
     display: none;
-    /* Initially hide the menu */
     position: absolute;
-    /* top: 120px; */
     top: 125px;
-    /* Adjust the top value based on the height of your header */
     left: 0;
     background-color: var(--primary-color-background-light);
-    /* padding: 10px 0; */
     gap: 10px;
     z-index: 1;
   }
 
   .navbar-navigation.open {
     display: flex;
-    /* Show menu when open */
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -140,7 +114,6 @@ body {
 
   .navbar-link {
     display: inline-block;
-    /* color: var(--button-hover); */
     background-color: var(--primary-color-background-light);
     width: 90%;
     text-align: center;
@@ -163,10 +136,6 @@ body {
   .navbar-logo {
     width: 80px;
   }
-
-  /* .navbar-logo {
-    margin: 0;
-  } */
 }
 
 /* HOME */
@@ -188,29 +157,22 @@ body {
 
 
 .button-hero {
-  /* position: relative; */
   border: 1.2px solid var(--primary-color-background-transparent);
-  /* border-radius: 5px; */
   border-radius: 15px;
   background-color: transparent;
   font-size: 1.1rem;
-  /* letter-spacing: 6px; */
   letter-spacing: 15px;
   color: var(--text-color);
   margin: 50px;
-  /* padding: 30px 70px; */
   padding: 10px 40px;
   text-transform: lowercase;
   cursor: pointer;
-  /* box-shadow: 0 0 0 1px var(--primary-color-background-transparent); */
 }
 
 
 .button-hero:hover {
-  /* color: var(--hover); */
   border: 0px solid var(--border);
   background-color: var(--primary-color-background-transparent);
-  /* background-color: transparent; */
 }
 
 .buttons-hero {
@@ -229,9 +191,7 @@ body {
     padding-top: 60px;
   }
 
-  /* .button-hero {
 
-  } */
 
   .hero-section {
     background-image: url('./img/hero-mobile.jpg');
@@ -245,14 +205,10 @@ body {
 
 .aboutus {
   background-color: var(--secondary-background);
-  /* background-color: var(--primary-color-background-dark); */
-  /* background-color: var(--primary-color-background-light); */
   color: var(--text-color);
-  /* color: var(--text-light); */
   padding: 170px 40px;
   letter-spacing: 3px;
   line-height: 40px;
-  /* border-top: 0.5px solid var(--hover); */
   min-height: 100vh;
 }
 
@@ -321,7 +277,6 @@ body {
 .contact {
   background-color: var(--secondary-background);
   width: 100%;
-  /* height: calc(100vh-150px); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -344,10 +299,6 @@ body {
   flex-direction: column;
   align-items: center;
 
-}
-
-.email {
-  /* text-align: center; */
 }
 
 .email a {

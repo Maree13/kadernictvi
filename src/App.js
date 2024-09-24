@@ -1,6 +1,6 @@
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { HashRouter, Routes, Route } from 'react-router-dom';
+// import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
@@ -24,8 +24,7 @@ const App = () => {
   }, []);
 
   return (
-    // <BrowserRouter key={windowSize}>
-    <HashRouter key={windowSize}>
+    <BrowserRouter key={windowSize}>
       <Routes>
         <Route element={<SharedLayout />}>
           <Route path="/" element={<Home />} />
@@ -36,7 +35,7 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 export default App;

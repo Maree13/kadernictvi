@@ -210,7 +210,7 @@ body {
 
 /* HERO AT BIG SCREENS */
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .buttons-hero {
     flex-direction: row;
     width: 60%;

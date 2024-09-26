@@ -188,12 +188,12 @@ body {
   .buttons-hero {
     flex-direction: column;
     padding-top: 15%;
-    padding-top: 60px;
+    padding-top: 70px;
   }
 
   .button-hero {
     font-size: 0.9rem;
-    padding: 50px 12px;
+    padding: 40px 12px;
     letter-spacing: 7px;
   }
 

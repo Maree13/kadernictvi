@@ -151,7 +151,6 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  /* color: white; */
 }
 
 
@@ -173,6 +172,7 @@ body {
 .button-hero:hover {
   border: 0px solid var(--border);
   background-color: var(--primary-color-background-transparent);
+  color: var(--hover);
 }
 
 .buttons-hero {
@@ -191,7 +191,11 @@ body {
     padding-top: 60px;
   }
 
-
+  .button-hero {
+    font-size: 0.9rem;
+    padding: 50px 12px;
+    letter-spacing: 7px;
+  }
 
   .hero-section {
     background-image: url('./img/hero-mobile.jpg');

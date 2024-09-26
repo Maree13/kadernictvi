@@ -208,6 +208,22 @@ body {
   }
 }
 
+/* HERO AT BIG SCREENS */
+
+@media (min-width: 1440px) {
+  .buttons-hero {
+    flex-direction: row;
+    width: 60%;
+    margin: 30px;
+  }
+
+  .button-hero {
+    font-size: 1.1rem;
+    letter-spacing: 12px;
+    padding: 100px;
+  }
+}
+
 /* ABOUT US - O NAS */
 
 .aboutus {

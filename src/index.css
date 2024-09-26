@@ -187,8 +187,8 @@ body {
 @media (max-width: 768px) {
   .buttons-hero {
     flex-direction: column;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: 35%;
+    padding-bottom: 35%;
 
     /* padding-top: 95px; */
   }

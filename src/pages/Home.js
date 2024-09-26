@@ -18,7 +18,10 @@ const Home = () => {
           Kadeřnictví
         </button>
 
-        <button className="button button-hero" onClick={handleKozmetikaClick}>
+        <button
+          className="button button-hero button-hero2"
+          onClick={handleKozmetikaClick}
+        >
           Kosmetika
         </button>
       </div>

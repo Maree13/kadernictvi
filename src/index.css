@@ -213,7 +213,7 @@ body {
 @media (min-width: 1440px) {
   .buttons-hero {
     flex-direction: row;
-    width: 60%;
+    width: 70%;
     margin: 30px;
   }
 
@@ -221,6 +221,10 @@ body {
     font-size: 1.1rem;
     letter-spacing: 12px;
     padding: 100px;
+  }
+
+  .button-hero2 {
+    margin-right: 25px;
   }
 }
 

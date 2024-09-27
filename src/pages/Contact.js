@@ -13,12 +13,12 @@ const Contact = () => {
         <span>Praha 2 - Vinohrady</span>
       </p>
 
-      <p>
-        <span>Kadeřnictví tel.: +420 777 089 094</span>
-      </p>
-
       <p className="email">
         <a href="mailto:misaka@email.cz">misaka@email.cz</a>
+      </p>
+
+      <p>
+        <span>Kadeřnictví tel.: +420 777 089 094</span>
       </p>
 
       <p>

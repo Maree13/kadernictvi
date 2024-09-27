@@ -14,11 +14,15 @@ const Contact = () => {
       </p>
 
       <p>
-        <span>Tel.: 777 089 094</span>
+        <span>Kadeřnictví tel.: +420 777 089 094</span>
       </p>
 
       <p className="email">
         <a href="mailto:misaka@email.cz">misaka@email.cz</a>
+      </p>
+
+      <p>
+        <span>Kosmetika tel.: +420 724 931 504</span>
       </p>
 
       {/* <div>

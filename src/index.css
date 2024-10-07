@@ -231,6 +231,9 @@ body {
 /* ABOUT US - O NAS */
 
 .aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--secondary-background);
   color: var(--text-color);
   padding: 170px 40px;
@@ -245,14 +248,15 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   gap: 40px;
+  width: 50%;
 }
 
 /* Responsive - MOBILE */
 @media (max-width: 768px) {
   .paragraphs-aboutus {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
 }
 

@@ -349,11 +349,36 @@ body {
 }
 
 /* KADERNICTVI */
+
 .kadernictvi {
   min-height: 100vh;
   background-color: var(--secondary-background);
   padding: 170px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 3px;
+  line-height: 40px;
+  width: 100%;
 }
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-price {
+  margin-left: 50px;
+}
+
+.kadernictvi-h2 {
+  margin: 50px;
+}
+
+.kadernictvi-paragraph {
+  margin: 40px;
+}
+
 
 /* KOZMETIKA */
 
@@ -361,6 +386,17 @@ body {
   min-height: 100vh;
   background-color: var(--secondary-background);
   padding: 170px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 3px;
+  line-height: 40px;
+  width: 100%;
+}
+
+.kozmetika-paragraph {
+  width: 50%;
+  text-align: center;
 }
 
 /* ERROR 404 PAGES */

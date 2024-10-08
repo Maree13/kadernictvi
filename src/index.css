@@ -257,6 +257,7 @@ body {
 /* Responsive - MOBILE */
 @media (max-width: 768px) {
   .paragraphs-aboutus {
+    width: 100%;
     /* font-size: 1.2rem; */
   }
 }
@@ -373,7 +374,7 @@ tr {
 }
 
 .service-price {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .kadernictvi-h2 {
@@ -381,7 +382,16 @@ tr {
 }
 
 .kadernictvi-paragraph {
-  margin: 40px;
+  /* margin: 40px; */
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@media (max-width: 768px) {
+  .kadernictvi-paragraph {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 
@@ -400,8 +410,17 @@ tr {
 }
 
 .kozmetika-paragraph {
-  width: 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  .kozmetika-paragraph {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 /* ERROR 404 PAGES */

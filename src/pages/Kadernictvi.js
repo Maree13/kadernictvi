@@ -14,7 +14,6 @@ const Kadernictvi = () => {
       duration: 'od 3 hodin',
     },
     { name: 'Hloubková kůra', price: 'od 700 Kč' },
-    { name: 'Speciální kůry, masky', price: 'od 200 Kč' },
     { name: 'Večerní, slavnostní účes', price: 'od 1000 Kč' },
     { name: 'Pánský střih', price: 'od 500 Kč' },
     { name: 'Dětský střih do 12 let', price: 'od 300 Kč' },

@@ -5,7 +5,7 @@ const Kadernictvi = () => {
     { name: 'Barvení', price: 'od 1700 Kč' },
     {
       name: 'Melíry a zesvětlení',
-      price: 'od 1000 Kč / hodina',
+      price: 'od 1000 Kč/h',
     },
     { name: 'Hloubková kůra', price: 'od 700 Kč' },
     { name: 'Večerní, slavnostní účes', price: 'od 1000 Kč' },

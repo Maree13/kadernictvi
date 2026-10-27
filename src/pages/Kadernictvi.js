@@ -1,15 +1,15 @@
 const Kadernictvi = () => {
   const services = [
-    { name: 'Foukaná', price: 'od 500 Kč' },
-    { name: 'Dámský střih', price: 'od 1000 Kč' },
-    { name: 'Barvení', price: 'od 1700 Kč' },
+    { name: 'Foukaná', price: 'od 600 Kč' },
+    { name: 'Dámský střih', price: 'od 1200 Kč' },
+    { name: 'Barvení', price: 'odrost 1900 Kč, celé délky od 2200 Kč' },
     {
       name: 'Melíry a zesvětlení',
-      price: 'od 1000 Kč/h',
+      price: 'od 1200 Kč/h',
     },
     { name: 'Hloubková kůra', price: 'od 700 Kč' },
     { name: 'Večerní, slavnostní účes', price: 'od 1000 Kč' },
-    { name: 'Pánský střih', price: 'od 500 Kč' },
+    { name: 'Pánský střih', price: 'od 600 Kč' },
     { name: 'Dětský střih do 12 let', price: 'od 300 Kč' },
     { name: 'Střih el. strojkem', price: 'od 400 Kč' },
   ];
